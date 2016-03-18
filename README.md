@@ -1,24 +1,15 @@
+PoliWise
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+To : other members
 
+Remember to run 'bundle install' before you start your rails server 
 
-Welcome to your Rails project on Cloud9 IDE!
+reminder info on doc orgranizaion
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://sample-app-amirah.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Parsed page content is found under : app/views/static_pages
+    -eg. Home, About, Help
+Parsed page elements content found undre: app/views/layouts
+    -eg. footer, header, ship
+    _ naming convention = _footer.html.erb
+    
+From: AmirahChamble    
