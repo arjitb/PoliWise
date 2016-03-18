@@ -6,7 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   
-  <%= render 'layouts/shim'%> <!--Renders IE9 exception hanling for layouts-->
+  <%= render 'layouts/shim'%> <!--Renders IE9 exception handling for layouts-->
 </head>
 <body>
   
@@ -16,6 +16,7 @@
   
 <%= yield %>
 
+<%= render 'layouts/footer' %> <!--Renders generic footer for all pages, just like header and shim-->
 </div>
 </body>
 </html>
