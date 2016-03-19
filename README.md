@@ -10,10 +10,10 @@ Parsed page content is found under : app/views/static_pages
 
     -eg. Home, About, Help
     
-Parsed page elements content found undre: app/views/layouts
+Parsed page elements content found under: app/views/layouts
 
-    -eg. footer, header, ship
+    -eg. footer, header, shim
     
-    _ naming convention = _footer.html.erb
+    -naming convention = _footer.html.erb
     
 From: AmirahChamble    
