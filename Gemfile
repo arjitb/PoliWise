@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+# Adds bcrypt to gemfile; ensures that an attacker won't be able to log in to the site even if he/she
+#manages a copy of the database.
+gem 'bcrypt', '3.1.7'
 # Adds bootstrap-sass gem to gemfile
 gem 'bootstrap-sass', '3.2.0.0'
 # Use sqlite3 as the database for Active Record
