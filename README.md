@@ -22,3 +22,15 @@ Parsed page elements content found under: app/views/layouts
     -naming convention = _footer.html.erb
     
 From: AmirahChamble    
+
+
+List of common git commands
+
+git status                        #shows all changed files in your directory
+git add -A                        # adds all the files changed and pushed to the commit stage
+git status                        # so you can double check if files have been added (if they are they 
+                                    will be green if not then red)
+git commit -m "your message"      # the commit message
+git push                          # push your changes to git repo
+
+git pull # pulls all new changes that have been pushed into the repo in your directory.
