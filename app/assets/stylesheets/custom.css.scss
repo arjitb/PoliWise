@@ -5,6 +5,12 @@
 // mixins and color variabels
 $gray-medium-light: #eaeaea;
 $white: #ffffff;
+    //a mixin allows a group of css rules to be packaged up and used for multiple elements
+@mixin box_sizing {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 // universal
 body{
@@ -85,4 +91,15 @@ footer{
          margin-left: 15px;
         }
     }
+}
+
+//misc.
+
+.debug_dump{
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    @include box_sizing; // I'm using the mixin here ref. line 9
+    
 }

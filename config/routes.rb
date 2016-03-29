@@ -1,14 +1,15 @@
 Rails.application.routes.draw do
-
-  get 'users/new'
  
   root  'static_pages#home'
   #enables XXXX_path to link between static pages. 
   get 'help'    => 'static_pages#help'
   get 'about'   => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
-  get 'signup'  => 'users#newU'
+  get 'signup'  => 'users#new'
  
+ #gives us all actions needed for a RESTful User resource, along with a larger number of named routes for 
+ #gernerating user URLs
+ resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

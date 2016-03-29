@@ -1,0 +1,14 @@
+<%= @user.name %>, <%= @user.email %>
+
+<div class ="row">
+    <aside class="col-md-4">
+        <section class="user_info">
+            <h1>
+                <!--Allows Gravator(globally recognized avatar) to include user profile images without
+                going through the trouble of managing image upload, cropping, and storage. -->
+                <%= gravatar_for @user %>
+                <%= @user.name %>
+            </h1>
+        </section>
+    </aside>
+</div>

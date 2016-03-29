@@ -17,6 +17,10 @@
 <%= yield %>
 
 <%= render 'layouts/footer' %> <!--Renders generic footer for all pages, just like header and shim-->
+<!--- This will make sure embeded ruby will not be inserted into production application/tests; this will allow us to 
+see page information in dev, but when we do push the site into production it will not be there for users to 
+see. -->
+<%= debug(params) if Rails.env.development? %>
 </div>
 </body>
 </html>
