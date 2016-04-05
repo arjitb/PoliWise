@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
  
+  get 'sessions/new'
+
   root  'static_pages#home'
   #enables XXXX_path to link between static pages. 
   get 'help'    => 'static_pages#help'
@@ -7,6 +9,9 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
   get 'trap'    => 'static_pages#trap'
   get 'signup'  => 'users#new'
+  get 'login'   => 'sessions#new'
+  post 'login'  => 'sessions#create'
+  delete 'logout' => 'sessions#destroy'
  
  #gives us all actions needed for a RESTful User resource, along with a larger number of named routes for 
  #gernerating user URLs

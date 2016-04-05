@@ -351,3 +351,399 @@ Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 12
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 206.196.186.150 at 2016-04-05 21:03:38 +0000
 Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 206.196.186.150 at 2016-04-05 22:07:58 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (1.6ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 732ms (Views: 712.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/custom.self-530392d39f70128be92218dfb9383eb0026f758ae21b0c3008809269efd30219.css?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 206.196.186.150 at 2016-04-05 22:07:59 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 206.196.186.150 at 2016-04-05 22:08:00 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/signup" for 206.196.186.150 at 2016-04-05 22:08:02 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (13.3ms)
+  Rendered users/new.html.erb within layouts/application (104.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 218ms (Views: 192.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 206.196.186.150 at 2016-04-05 22:18:06 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 331ms (Views: 329.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 206.196.186.150 at 2016-04-05 22:18:06 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 206.196.186.150 at 2016-04-05 22:18:06 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:19:49 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (150.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 612ms (Views: 593.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:30:28 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cDUamU8glnwt0rjyK2P2nwwcKgQsRW80EX5CaAcgB/jgtaDJCm2VSb2VrOrEo8FSaV7hyo/MFADef22nVyUWdA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:30:38 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (28927.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 53482ms (Views: 322.8ms | ActiveRecord: 28927.8ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:31:21 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43289ms (Views: 43287.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:31:22 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (11.2ms)
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (8.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 671ms (Views: 669.8ms | ActiveRecord: 0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 529ms (Views: 522.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:31:42 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 135ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:31:44 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CQQRSeqIeHfYbQnNzA24xVGRhVZXRFAnght6pHDXkOqZhKsZr8V7QkgqHdUjzY8INNNOmPTNKxNNGlVrINKBZg==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 260ms (Views: 245.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:32:19 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KbSAfvrdUGkA9S7DCs9f/yo21rynFtwVdINesyasHOy5NDouv5BTXJCyOtvlD2gyT3QdcgSfpyG7gnF8dqkNYA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 124ms (Views: 121.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 206.196.186.150 at 2016-04-05 22:36:39 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 661ms (Views: 639.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:36:46 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (199.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 305ms (Views: 303.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:38:11 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5tKeCnmTms8+McodDm4zIxOa6PbqSEUsH0cEEwdjplZ2UiRaPN6Z+q523gXhrgTudtgjOEnBPhjQRivcV2a32g==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 197ms (Views: 104.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:38:13 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aRR1FHiNS20HU/go3UfVF3Bqg+KJ+wZFz3mFfSQhNE75lM9EPcBIWJcU7DAyh+LaFShILCpyfXEAeKqydCQlwg==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 174ms (Views: 169.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:41:44 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bB8+ZcJkMUU+fmc15KextqXlRFaykNPM8d+oPbOmLhj8n4Q1hykycK45cy0LZ4Z7wKePmBEZqPg+3ofy46M/lA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (64.9ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 781ms (Views: 720.6ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:41:57 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CHmOiq+BzOOruqP1fnVNnGa472zb2RD9t/IUd9liODSY+TTa6szP1jv9t+2RtXpRA/okonhQa8l48zu4iWcpuA==", "session"=>{"email"=>"pauline@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "pauline@gmail.com"]]
+  Rendered sessions/new.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 162ms (Views: 143.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:43:48 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 212ms (Views: 210.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:43:50 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oD1Ox5BrYr2+np3wJK/0g9CXRIIae7mZnQ+6HXAga5kwvfSX1SZhiC7ZiejLb8NOtdWPTLnywq1SDpXSICV6FQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 102ms (Views: 87.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 206.196.186.150 at 2016-04-05 22:48:19 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 206.196.186.150 at 2016-04-05 22:48:27 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (7.9ms)
+  Rendered users/new.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_shim.html.erb (1.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 147ms (Views: 136.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users" for 206.196.186.150 at 2016-04-05 22:48:29 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n7ovk42swCm0A7vdRGOK4OF3uSh1B4eJO9NhmSyWvkoPOpXDyOHDHCREr8Wro70thDVy5taO/L300k5WfJOvxg==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (10.7ms)
+  Rendered users/new.html.erb within layouts/application (27.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (8.5ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 360ms (Views: 267.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:48:35 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 228ms (Views: 226.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:48:36 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EBmY7qeQkZlE1X6Dr1Sju41GuRlvfSnmYkWXsZjaoRSAmSK+4t2SrNSSaptAlJR26ARy18z0UtKtRLh+yN+wmA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 167ms (Views: 161.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 206.196.186.150 at 2016-04-05 22:55:58 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 136ms (Views: 134.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 206.196.186.150 at 2016-04-05 22:56:00 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 206.196.186.150 at 2016-04-05 22:56:02 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1dCo4cnckRmkaPYFlbr0luPsPmokpYB9vvHv+79FOLpFUBKxjJGSLDQv4h16esNbhq71pIcs+0lx8MA070ApNg==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (5.8ms)
+  Rendered users/new.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 199ms (Views: 133.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:56:08 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 206.196.186.150 at 2016-04-05 22:56:12 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T4usBkFkmuXunY0BSbEXE76A/MUN/CM6wa54hOixZ5vfCxZWBCmZ0H7amRmmcSDe28I3C651WA4Or1dLuLR2Fw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 77.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for 206.196.186.150 at 2016-04-05 22:56:13 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered users/new.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 206.196.186.150 at 2016-04-05 22:56:26 +0000
+Cannot render console from 206.196.186.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
