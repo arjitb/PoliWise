@@ -10,7 +10,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params) #not final implementation
       if @user.save
-        #succesfully render
+        flash[:success] = "Welcome to PoliWise!"
+        redirect_to @user
       else
         render 'new'
       end

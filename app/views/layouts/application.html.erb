@@ -13,7 +13,9 @@
 <%= render 'layouts/header' %><!--Renders header html5--->
 
 <div class="container">
-  
+  <% flash.each do |message_type, message| %>
+    <div class="alert alert-<%= message_type %>"><%= message %></div>
+  <% end %>  
 <%= yield %>
 
 <%= render 'layouts/footer' %> <!--Renders generic footer for all pages, just like header and shim-->
