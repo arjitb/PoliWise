@@ -4,20 +4,20 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
     assert_response :success
-    assert_select "title", "The Sample App"
+    assert_select "title", "PoliWise"
   end
 
   test "should get help" do
     get :help
     assert_response :success
-    assert_select "title", "Help | The Sample App"
+    assert_select "title", "Help | PoliWise"
   end
   
   #test for retrieving about page
   test "should get about" do
     get :about
     assert_response :success
-    assert_select "title", "About | The Sample App"
+    assert_select "title", "About | PoliWise"
   end
   
   test "should get contact" do

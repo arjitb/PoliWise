@@ -1,7 +1,7 @@
 module ApplicationHelper
     #Returns the full title on a per-page bases
     def full_title(page_title = '')
-        base_title = "The Sample App"
+        base_title = "PoliWise"
         if page_title.empty?
             base_title
         else
