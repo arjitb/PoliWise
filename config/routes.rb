@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'help'    => 'static_pages#help'
   get 'about'   => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
+  get 'trap'    => 'static_pages#trap'
   get 'signup'  => 'users#new'
  
  #gives us all actions needed for a RESTful User resource, along with a larger number of named routes for 
