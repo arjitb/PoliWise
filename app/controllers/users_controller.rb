@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find(params[:id])
+    @user = User.find(params[:id]) 
   end
   
   def new
@@ -10,7 +10,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params) #not final implementation
       if @user.save
-        flash[:success] = "Welcome to PoliWise!"
+        log_in @user
+        flash.now[:success] = "Welcome to PoliWise!"
         redirect_to @user
       else
         render 'new'
